@@ -1,0 +1,54 @@
+{
+  "id": "cnki-research",
+  "name": "CNKI Research Assistant",
+  "version": "1.0.0",
+  "description": "Search Chinese academic literature from CNKI - the largest academic database in China with 100M+ publications",
+  "entryPoint": "index.ts",
+  "permissions": ["web"],
+  "keywords": [
+    "cnki",
+    "中国知网",
+    "chinese",
+    "academic",
+    "journals",
+    "dissertations",
+    "medical",
+    "research"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "homepage": "https://github.com/openclaw/skills/tree/main/skills/cnki-research",
+  "engines": {
+    "openclaw": ">=2026.0.0"
+  },
+  "clawdbot": {
+    "emoji": "🇨🇳",
+    "requires": {
+      "bins": [],
+      "env": [],
+      "os": ["linux", "darwin", "win32"],
+      "apiKeys": []
+    },
+    "install": []
+  },
+  "categories": [
+    "research",
+    "academic",
+    "chinese",
+    "medical"
+  ],
+  "examples": [
+    {
+      "description": "Search Chinese medical journals",
+      "command": "搜索 CNKI: 人工智能 医疗"
+    },
+    {
+      "description": "Find dissertations",
+      "command": "查找 CNKI 学位论文: 深度学习 诊断"
+    },
+    {
+      "description": "Analyze research trends",
+      "command": "分析 CNKI: 机器学习 医学影像 研究趋势"
+    }
+  ]
+}
